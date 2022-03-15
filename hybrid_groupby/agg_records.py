@@ -1,6 +1,9 @@
 import pandas as pd 
 
 def hybrid_groupby(df, grp_cols, sum_cols=[], avg_cols=[], min_cols=[], max_cols=[]): 
+    """The purpose of this function is to replicate the functionality of a SQL GROUP BY clause. 
+       Takes a DataFrame, a list of grouping columns, a few lists of columns to operate on, and 
+       returns the first record of all ignored fields."""
     
     sum_df = df[grp_cols + sum_cols].groupby(grp_cols, as_index=False).sum()
     avg_df = df[grp_cols + avg_cols].groupby(grp_cols, as_index=False).mean()
