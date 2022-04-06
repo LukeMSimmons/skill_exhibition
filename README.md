@@ -1,4 +1,4 @@
 # skill_exhibition
-I'm going to throw some quick demos in here that showcase skills I find illustrative of my capabilities
+Here you will find some side projects that showcase skills that are illustrative of my capabilities
 
 #### Thanks for taking a look! 
