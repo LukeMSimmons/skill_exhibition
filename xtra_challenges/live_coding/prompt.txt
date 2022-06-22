@@ -1,0 +1,4 @@
+
+Prompt 
+
+You will be given two small data files in an extremely common data format (which you’ve likely seen before) derived from actual data we have received from a pharmaceutical sponsor. While the data is sanitized of sensitive information, it is structurally identical and all anomalies have been preserved. You will be asked to ingest this data into a script that you write, perform a series of data transformation and data aggregation tasks, and export the results of those tasks in the same format as the input data.

@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:20220313T030000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZNAME:PDT
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20221106T010000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZNAME:PST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220414T173036Z
+UID:8ae709ef-7e3f-4bbf-8098-527f25608076
+DTSTART;TZID=America/Los_Angeles:20220418T113000
+DTEND;TZID=America/Los_Angeles:20220418T120000
+DESCRIPTION:Hi Luke\,\n\nThanks for submitting your availability to intervi
+ ew for the Data Scientist\, Scalable Product Analytics position. I've sche
+ duled and confirmed your interview(s) with our team. Here are the details:
+ \n\nDate/Time: Apr 18\, 2022 11:30am-12:00pm PDT\nInterviewers: Chipper St
+ otz\nZoom: https://hellobrightline.zoom.us/j/84566414976?pwd=Q0c2M0lrNCtIT
+ 0JHZDdlYVBqcFlEdz09\n\nDate/Time: Apr 19\, 2022 9:15am-10:00am PDT\nInterv
+ iewers: Jesse Bridgewater\, Diana Rodriguez\nZoom: https://hellobrightline
+ .zoom.us/j/85228114153?pwd=bFl1WlpxUWNQS3hKOEplbGt5TG9Wdz09\nPlease see th
+ e attached information about Brightline to help you prepare. Let us know i
+ f you have any questions and good luck!\n\nThanks\,\nJesse\n\n------------
+ --\nBelow are the video conferencing details for this specific calendar in
+ vite\n--------------\n\nChipper Stotz is inviting you to a scheduled Zoom 
+ meeting.\n\nTopic: Interview Luke Simmons for Data Scientist\, Scalable Pr
+ oduct Analytics\nTime: Apr 18\, 2022 11:30 AM Pacific Time (US and Canada)
+ \n\nJoin Zoom Meeting\nhttps://hellobrightline.zoom.us/j/84566414976?pwd=Q
+ 0c2M0lrNCtIT0JHZDdlYVBqcFlEdz09\n\nMeeting ID: 845 6641 4976\nPasscode: 44
+ 1585\nOne tap mobile\n+13017158592\,\,84566414976# US (Washington DC)\n+13
+ 126266799\,\,84566414976# US (Chicago)\n\nDial by your location\n        +
+ 1 301 715 8592 US (Washington DC)\n        +1 312 626 6799 US (Chicago)\n 
+        +1 929 205 6099 US (New York)\n        +1 253 215 8782 US (Tacoma)\
+ n        +1 346 248 7799 US (Houston)\n        +1 669 900 6833 US (San Jos
+ e)\nMeeting ID: 845 6641 4976\nFind your local number: https://hellobright
+ line.zoom.us/u/kcf9DuU7j
+LOCATION:
+SUMMARY:Interview with Brightline
+END:VEVENT
+END:VCALENDAR
